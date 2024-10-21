@@ -24,6 +24,7 @@ You can install the required dependencies by running:
 
 ````bash
 pip install -r requirements.txt
+````
 
 ## Usage
 
