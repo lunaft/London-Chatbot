@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>London Chatbot</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Altura total de la ventana */
+            display: flex; /* Usar flexbox */
+            align-items: center; /* Centrar verticalmente */
+            justify-content: center; /* Centrar horizontalmente */
+            background-image: url('https://media.gq.com.mx/photos/663dbb0bb132d90c5788d66a/16:9/w_2560%2Cc_limit/Londres_1347665170.jpg'); /* Imagen de fondo de Londres */
+            background-size: cover; /* Asegura que cubra toda la pantalla */
+            background-repeat: no-repeat; /* No repetir la imagen */
+            background-position: center; /* Centrar la imagen de fondo */
+            background-attachment: fixed; /* Fijar la imagen de fondo al hacer scroll */
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #00247d; /* Azul de la bandera británica */
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+        }
+        #chat {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+            max-width: 600px;
+            width: 100%; /* Asegura que ocupe el 100% del ancho disponible */
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            border: 1px solid #007bff; /* Azul de Londres */
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px;
+            background-color: #c8102e; /* Rojo de la bandera británica */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #a60f22; /* Rojo más oscuro */
+        }
+        #answer {
+            margin-top: 15px;
+            font-weight: bold;
+            text-align: center;
+            color: #007bff; /* Azul de Londres */
+            border-top: 1px solid #007bff;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat">
+        <h1>London Chatbot</h1>
+        <input type="text" id="question" placeholder="Escribe tu pregunta aquí...">
+        <button onclick="askQuestion()">Enviar</button>
+        <p id="answer"></p>
+    </div>
+    <script>
+        async function askQuestion() {
+            const question = document.getElementById('question').value;
+            const response = await fetch(`/ask?question=${encodeURIComponent(question)}`);
+            const data = await response.json();
+            document.getElementById('answer').innerText = data.answer;
+        }
+    </script>
+</body>
+</html>

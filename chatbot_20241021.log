@@ -1,0 +1,117 @@
+2024-10-21 18:34:34,621 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-10-21 18:34:39,023 - INFO - Use pytorch device_name: cpu
+2024-10-21 18:34:39,025 - INFO - Modelo sentence-transformers/all-MiniLM-L6-v2 cargado exitosamente
+2024-10-21 18:34:41,110 - INFO - FAQs cargadas exitosamente: 1207 preguntas
+2024-10-21 18:34:41,124 - WARNING -  * Debugger is active!
+2024-10-21 18:34:41,145 - INFO -  * Debugger PIN: 113-638-242
+2024-10-21 18:34:41,166 - INFO - 127.0.0.1 - - [21/Oct/2024 18:34:41] "GET / HTTP/1.1" 200 -
+2024-10-21 18:34:55,555 - INFO - Pregunta: where can I stay cheap in London | Score: 0.76
+2024-10-21 18:34:55,556 - INFO - 127.0.0.1 - - [21/Oct/2024 18:34:55] "GET /ask?question=where%20can%20I%20stay%20cheap%20in%20London HTTP/1.1" 200 -
+2024-10-21 18:36:01,987 - INFO -  * Detected change in '/Users/lunaflorestorres/Desktop/chat_londres/chatbot.py', reloading
+2024-10-21 18:36:07,138 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-10-21 18:36:11,130 - INFO - Use pytorch device_name: cpu
+2024-10-21 18:36:11,133 - INFO - Modelo sentence-transformers/all-MiniLM-L6-v2 cargado exitosamente en cpu
+2024-10-21 18:36:12,477 - INFO - FAQs cargadas exitosamente: 674 preguntas
+2024-10-21 18:36:12,491 - WARNING -  * Debugger is active!
+2024-10-21 18:36:12,510 - INFO -  * Debugger PIN: 113-638-242
+2024-10-21 18:36:19,243 - INFO - 127.0.0.1 - - [21/Oct/2024 18:36:19] "GET / HTTP/1.1" 200 -
+2024-10-21 18:36:26,432 - INFO - Pregunta: where can I stay cheap in London | Score: 0.76
+2024-10-21 18:36:26,433 - INFO - 127.0.0.1 - - [21/Oct/2024 18:36:26] "GET /ask?question=where%20can%20I%20stay%20cheap%20in%20London HTTP/1.1" 200 -
+2024-10-21 18:36:41,464 - INFO - Pregunta: where is the place more cheaper in London | Score: 0.70
+2024-10-21 18:36:41,465 - INFO - 127.0.0.1 - - [21/Oct/2024 18:36:41] "GET /ask?question=where%20is%20the%20place%20more%20cheaper%20in%20London HTTP/1.1" 200 -
+2024-10-21 18:38:16,385 - INFO - 127.0.0.1 - - [21/Oct/2024 18:38:16] "GET /ask?question=where%20is%20the%20place%20more%20cheaper%20in%20London HTTP/1.1" 200 -
+2024-10-21 18:38:17,973 - INFO - 127.0.0.1 - - [21/Oct/2024 18:38:17] "GET /ask?question=where%20is%20the%20place%20more%20cheaper%20in%20London HTTP/1.1" 200 -
+2024-10-21 18:38:20,834 - INFO - 127.0.0.1 - - [21/Oct/2024 18:38:20] "GET / HTTP/1.1" 200 -
+2024-10-21 18:38:31,199 - INFO - 127.0.0.1 - - [21/Oct/2024 18:38:31] "GET /ask?question=where%20can%20I%20stay%20cheap%20in%20London HTTP/1.1" 200 -
+2024-10-21 18:39:16,986 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-10-21 18:39:21,291 - INFO - Use pytorch device_name: cpu
+2024-10-21 18:39:21,296 - INFO - Modelo sentence-transformers/all-MiniLM-L6-v2 cargado exitosamente en cpu
+2024-10-21 18:39:22,764 - INFO - FAQs cargadas exitosamente: 676 preguntas
+2024-10-21 18:39:22,784 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.15:5001
+2024-10-21 18:39:22,784 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-21 18:39:34,516 - INFO - 127.0.0.1 - - [21/Oct/2024 18:39:34] "GET / HTTP/1.1" 200 -
+2024-10-21 18:39:56,542 - INFO - Pregunta: how many days to see london | Score: 0.72
+2024-10-21 18:39:56,549 - INFO - 127.0.0.1 - - [21/Oct/2024 18:39:56] "GET /ask?question=how%20many%20days%20to%20see%20london HTTP/1.1" 200 -
+2024-10-21 18:40:17,121 - WARNING - Pregunta no reconocida: what is london's biggest problem | Score: 0.64
+2024-10-21 18:40:17,122 - ERROR - Error en la ruta /ask: 'ChatBot' object has no attribute 'get_similar_questions'
+2024-10-21 18:40:17,122 - INFO - 127.0.0.1 - - [21/Oct/2024 18:40:17] "GET /ask?question=what%20is%20london's%20biggest%20problem HTTP/1.1" 200 -
+2024-10-21 18:40:30,318 - INFO - Pregunta: what is london's biggest problem for tourism? | Score: 0.72
+2024-10-21 18:40:30,319 - INFO - 127.0.0.1 - - [21/Oct/2024 18:40:30] "GET /ask?question=what%20is%20london's%20biggest%20problem%20for%20tourism? HTTP/1.1" 200 -
+2024-10-21 18:40:46,333 - INFO - Pregunta: is london dangerous | Score: 0.84
+2024-10-21 18:40:46,334 - INFO - 127.0.0.1 - - [21/Oct/2024 18:40:46] "GET /ask?question=is%20london%20dangerous HTTP/1.1" 200 -
+2024-10-21 18:41:12,012 - INFO - Pregunta: what is the most important thing to see in london? | Score: 0.77
+2024-10-21 18:41:12,013 - INFO - 127.0.0.1 - - [21/Oct/2024 18:41:12] "GET /ask?question=what%20is%20the%20most%20important%20thing%20to%20see%20in%20london? HTTP/1.1" 200 -
+2024-10-21 18:41:38,914 - WARNING - Pregunta no reconocida: what is the temperature in summer | Score: 0.66
+2024-10-21 18:41:38,915 - ERROR - Error en la ruta /ask: 'ChatBot' object has no attribute 'get_similar_questions'
+2024-10-21 18:41:38,916 - INFO - 127.0.0.1 - - [21/Oct/2024 18:41:38] "GET /ask?question=what%20is%20the%20temperature%20in%20summer HTTP/1.1" 200 -
+2024-10-21 18:41:41,484 - ERROR - Error en la ruta /ask: 'ChatBot' object has no attribute 'get_similar_questions'
+2024-10-21 18:41:41,485 - INFO - 127.0.0.1 - - [21/Oct/2024 18:41:41] "GET /ask?question=what%20is%20the%20temperature%20in%20summer HTTP/1.1" 200 -
+2024-10-21 18:41:47,178 - ERROR - Error en la ruta /ask: 'ChatBot' object has no attribute 'get_similar_questions'
+2024-10-21 18:41:47,178 - INFO - 127.0.0.1 - - [21/Oct/2024 18:41:47] "GET /ask?question=what%20is%20the%20temperature%20in%20summer HTTP/1.1" 200 -
+2024-10-21 18:42:07,740 - INFO - 127.0.0.1 - - [21/Oct/2024 18:42:07] "GET / HTTP/1.1" 200 -
+2024-10-21 18:42:10,074 - ERROR - Error en la ruta /ask: 'ChatBot' object has no attribute 'get_similar_questions'
+2024-10-21 18:42:10,074 - INFO - 127.0.0.1 - - [21/Oct/2024 18:42:10] "GET /ask?question=what%20is%20the%20temperature%20in%20summer HTTP/1.1" 200 -
+2024-10-21 18:44:00,029 - INFO - Pregunta: how is the weather in summer | Score: 0.74
+2024-10-21 18:44:00,032 - INFO - 127.0.0.1 - - [21/Oct/2024 18:44:00] "GET /ask?question=how%20is%20the%20weather%20in%20summer HTTP/1.1" 200 -
+2024-10-21 18:44:15,248 - INFO - Pregunta: how is better to visit london | Score: 0.80
+2024-10-21 18:44:15,248 - INFO - 127.0.0.1 - - [21/Oct/2024 18:44:15] "GET /ask?question=how%20is%20better%20to%20visit%20london HTTP/1.1" 200 -
+2024-10-21 18:45:04,128 - INFO - Pregunta: how is better moment to visit london | Score: 0.76
+2024-10-21 18:45:04,137 - INFO - 127.0.0.1 - - [21/Oct/2024 18:45:04] "GET /ask?question=how%20is%20better%20moment%20to%20visit%20london HTTP/1.1" 200 -
+2024-10-21 18:45:12,147 - INFO - Pregunta: how is better way to visit london | Score: 0.87
+2024-10-21 18:45:12,147 - INFO - 127.0.0.1 - - [21/Oct/2024 18:45:12] "GET /ask?question=how%20is%20better%20way%20to%20visit%20london HTTP/1.1" 200 -
+2024-10-21 18:45:30,529 - WARNING - Pregunta no reconocida: what is the most typical thing to do on halloween | Score: 0.68
+2024-10-21 18:45:30,529 - ERROR - Error en la ruta /ask: 'ChatBot' object has no attribute 'get_similar_questions'
+2024-10-21 18:45:30,529 - INFO - 127.0.0.1 - - [21/Oct/2024 18:45:30] "GET /ask?question=what%20is%20the%20most%20typical%20thing%20to%20do%20on%20halloween HTTP/1.1" 200 -
+2024-10-21 18:48:54,223 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-10-21 18:49:01,175 - INFO - Use pytorch device_name: cpu
+2024-10-21 18:49:01,179 - INFO - Modelo sentence-transformers/all-MiniLM-L6-v2 cargado exitosamente en cpu
+2024-10-21 18:49:02,648 - INFO - FAQs cargadas exitosamente: 676 preguntas
+2024-10-21 18:49:02,666 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.15:5001
+2024-10-21 18:49:02,666 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-21 18:49:43,948 - INFO - 127.0.0.1 - - [21/Oct/2024 18:49:43] "GET / HTTP/1.1" 200 -
+2024-10-21 18:49:55,503 - INFO - Pregunta: what is the most typical thing to do on halloween | Score: 0.69
+2024-10-21 18:49:55,505 - INFO - 127.0.0.1 - - [21/Oct/2024 18:49:55] "GET /ask?question=what%20is%20the%20most%20typical%20thing%20to%20do%20on%20halloween HTTP/1.1" 200 -
+2024-10-21 18:50:28,905 - INFO - Pregunta: who is the most famous person in London | Score: 0.71
+2024-10-21 18:50:28,906 - INFO - 127.0.0.1 - - [21/Oct/2024 18:50:28] "GET /ask?question=who%20is%20the%20most%20famous%20person%20in%20London HTTP/1.1" 200 -
+2024-10-21 18:53:18,056 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-10-21 18:53:23,169 - INFO - Use pytorch device_name: cpu
+2024-10-21 18:53:23,172 - INFO - Modelo sentence-transformers/all-MiniLM-L6-v2 cargado exitosamente en cpu
+2024-10-21 18:53:24,821 - INFO - FAQs cargadas exitosamente: 676 preguntas
+2024-10-21 18:53:24,839 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.15:5001
+2024-10-21 18:53:24,839 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-21 18:53:54,849 - INFO - 127.0.0.1 - - [21/Oct/2024 18:53:54] "GET / HTTP/1.1" 200 -
+2024-10-21 18:54:02,621 - INFO - Pregunta: who is the most famous person in London | Score: 0.71
+2024-10-21 18:54:02,622 - INFO - 127.0.0.1 - - [21/Oct/2024 18:54:02] "GET /ask?question=who%20is%20the%20most%20famous%20person%20in%20London HTTP/1.1" 200 -
+2024-10-21 19:02:09,699 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-10-21 19:02:14,924 - INFO - Use pytorch device_name: cpu
+2024-10-21 19:02:14,933 - INFO - Modelo sentence-transformers/all-MiniLM-L6-v2 cargado exitosamente en cpu
+2024-10-21 19:02:17,125 - INFO - FAQs cargadas exitosamente: 676 preguntas
+2024-10-21 19:02:17,146 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.15:5001
+2024-10-21 19:02:17,146 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-21 19:02:25,033 - INFO - 127.0.0.1 - - [21/Oct/2024 19:02:25] "GET / HTTP/1.1" 200 -
+2024-10-21 19:02:43,344 - INFO - Pregunta: when is a good idea to visit London | Score: 0.76
+2024-10-21 19:02:43,345 - INFO - 127.0.0.1 - - [21/Oct/2024 19:02:43] "GET /ask?question=when%20is%20a%20good%20idea%20to%20visit%20London HTTP/1.1" 200 -
+2024-10-21 19:28:47,378 - INFO - Use pytorch device_name: cpu
+2024-10-21 19:28:47,378 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-10-21 19:28:54,637 - INFO - Modelo sentence-transformers/all-MiniLM-L6-v2 cargado exitosamente en cpu
+2024-10-21 19:28:58,280 - INFO - FAQs cargadas exitosamente: 676 preguntas
+2024-10-21 19:28:58,331 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.15:5001
+2024-10-21 19:28:58,331 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-21 19:29:03,430 - INFO - 127.0.0.1 - - [21/Oct/2024 19:29:03] "GET / HTTP/1.1" 200 -
+2024-10-21 19:29:26,038 - INFO - Pregunta: is london dangerous for tourists? | Score: 0.90
+2024-10-21 19:29:26,045 - INFO - 127.0.0.1 - - [21/Oct/2024 19:29:26] "GET /ask?question=is%20london%20dangerous%20for%20tourists? HTTP/1.1" 200 -
